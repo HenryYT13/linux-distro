@@ -4,7 +4,6 @@ Distro's name: Debian, Website: debian.org, Based: Independent
 Distro's name: Fedora, Website: fedoraproject.org, Based: Independent (historically Red Hat Linux)
 Distro's name: Arch Linux, Website: archlinux.org, Based: Independent
 Distro's name: Manjaro, Website: manjaro.org, Based: Arch Linux
-Distro's name: openSUSE Leap, Website: opensuse.org, Based: Independent (SUSE)
 Distro's name: openSUSE Tumbleweed, Website: opensuse.org, Based: Independent (SUSE)
 Distro's name: CentOS Stream, Website: centos.org, Based: Fedora (RHEL upstream)
 Distro's name: Rocky Linux, Website: rockylinux.org, Based: RHEL
