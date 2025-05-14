@@ -1,0 +1,202 @@
+Distro's name: Ubuntu, Website: ubuntu.com, Based: Debian
+Distro's name: Linux Mint, Website: linuxmint.com, Based: Ubuntu
+Distro's name: Debian, Website: debian.org, Based: Independent
+Distro's name: Fedora, Website: fedoraproject.org, Based: Independent (historically Red Hat Linux)
+Distro's name: Arch Linux, Website: archlinux.org, Based: Independent
+Distro's name: Manjaro, Website: manjaro.org, Based: Arch Linux
+Distro's name: openSUSE Leap, Website: opensuse.org, Based: Independent (SUSE)
+Distro's name: openSUSE Tumbleweed, Website: opensuse.org, Based: Independent (SUSE)
+Distro's name: CentOS Stream, Website: centos.org, Based: Fedora (RHEL upstream)
+Distro's name: Rocky Linux, Website: rockylinux.org, Based: RHEL
+Distro's name: AlmaLinux, Website: almalinux.org, Based: RHEL
+Distro's name: Kali Linux, Website: kali.org, Based: Debian
+Distro's name: Pop!_OS, Website: pop.system76.com, Based: Ubuntu
+Distro's name: Zorin OS, Website: zorinos.com, Based: Ubuntu
+Distro's name: MX Linux, Website: mxlinux.org, Based: Debian
+Distro's name: Elementary OS, Website: elementary.io, Based: Ubuntu
+Distro's name: Gentoo Linux, Website: gentoo.org, Based: Independent
+Distro's name: Slackware, Website: slackware.com, Based: Independent
+Distro's name: Kubuntu, Website: kubuntu.org, Based: Ubuntu
+Distro's name: Lubuntu, Website: lubuntu.me, Based: Ubuntu
+Distro's name: Xubuntu, Website: xubuntu.org, Based: Ubuntu
+Distro's name: Ubuntu MATE, Website: ubuntu-mate.org, Based: Ubuntu
+Distro's name: Ubuntu Budgie, Website: ubuntubudgie.org, Based: Ubuntu
+Distro's name: KDE neon, Website: neon.kde.org, Based: Ubuntu
+Distro's name: Solus, Website: getsol.us, Based: Independent
+Distro's name: Void Linux, Website: voidlinux.org, Based: Independent
+Distro's name: NixOS, Website: nixos.org, Based: Independent
+Distro's name: Alpine Linux, Website: alpinelinux.org, Based: Independent (musl, BusyBox)
+Distro's name: Puppy Linux, Website: puppylinux.com, Based: Independent
+Distro's name: AntiX Linux, Website: antixlinux.com, Based: Debian
+Distro's name: SparkyLinux, Website: sparkylinux.org, Based: Debian
+Distro's name: Devuan, Website: devuan.org, Based: Debian (systemd-free)
+Distro's name: Q4OS, Website: q4os.org, Based: Debian
+Distro's name: Raspberry Pi OS, Website: raspberrypi.com, Based: Debian
+Distro's name: EndeavourOS, Website: endeavouros.com, Based: Arch Linux
+Distro's name: Garuda Linux, Website: garudalinux.org, Based: Arch Linux
+Distro's name: Artix Linux, Website: artixlinux.org, Based: Arch Linux (systemd-free)
+Distro's name: Clear Linux OS, Website: clearlinux.org, Based: Independent (Intel)
+Distro's name: Oracle Linux, Website: oracle.com, Based: RHEL
+Distro's name: Mageia, Website: mageia.org, Based: Mandriva (fork)
+Distro's name: PCLinuxOS, Website: pclinuxos.com, Based: Mandriva (Mandrake)
+Distro's name: OpenMandriva Lx, Website: openmandriva.org, Based: Mandriva (fork)
+Distro's name: ROSA Linux, Website: rosalinux.ru, Based: Mandriva (fork)
+Distro's name: Red Hat Enterprise Linux (RHEL), Website: redhat.com, Based: Independent (Fedora upstream)
+Distro's name: SUSE Linux Enterprise Server (SLES), Website: suse.com, Based: Independent (openSUSE is related)
+Distro's name: Deepin, Website: deepin.org, Based: Debian
+Distro's name: Tails, Website: tails.net, Based: Debian
+Distro's name: Qubes OS, Website: qubes-os.org, Based: Fedora
+Distro's name: Whonix, Website: whonix.org, Based: Debian
+Distro's name: Parrot OS, Website: parrotsec.org, Based: Debian
+Distro's name: BlackArch Linux, Website: blackarch.org, Based: Arch Linux
+Distro's name: Linux Lite, Website: linuxliteos.com, Based: Ubuntu
+Distro's name: Peppermint OS, Website: peppermintos.com, Based: Debian (previously Ubuntu)
+Distro's name: Bodhi Linux, Website: bodhilinux.com, Based: Ubuntu
+Distro's name: Trisquel GNU/Linux, Website: trisquel.info, Based: Ubuntu
+Distro's name: PureOS, Website: pureos.net, Based: Debian
+Distro's name: Feren OS, Website: ferenos.dev, Based: Ubuntu (Linux Mint)
+Distro's name: Nitrux, Website: nxos.org, Based: Debian
+Distro's name: KaOS, Website: kaosx.us, Based: Independent
+Distro's name: CRUX, Website: crux.nu, Based: Independent
+Distro's name: Tiny Core Linux, Website: tinycorelinux.net, Based: Independent (LFS)
+Distro's name: SliTaz GNU/Linux, Website: slitaz.org, Based: Independent
+Distro's name: 4MLinux, Website: 4mlinux.com, Based: Independent
+Distro's name: ArchLabs Linux, Website: archlabslinux.com, Based: Arch Linux
+Distro's name: BunsenLabs Linux, Website: bunsenlabs.org, Based: Debian
+Distro's name: LXLE, Website: lxle.net, Based: Ubuntu (Lubuntu LTS)
+Distro's name: Salix OS, Website: salixos.org, Based: Slackware
+Distro's name: VectorLinux, Website: vectorlinux.com, Based: Slackware
+Distro's name: Absolute Linux, Website: absolutelinux.org, Based: Slackware
+Distro's name: Porteus, Website: porteus.org, Based: Slackware
+Distro's name: Slax, Website: slax.org, Based: Debian (previously Slackware)
+Distro's name: Emmabuntüs, Website: emmabuntus.org, Based: Debian (Ubuntu variants exist)
+Distro's name: GoboLinux, Website: gobolinux.org, Based: Independent
+Distro's name: NuTyX, Website: nutyx.org, Based: LFS (Linux From Scratch)
+Distro's name: Calculate Linux, Website: calculate-linux.org, Based: Gentoo
+Distro's name: Pentoo, Website: pentoo.ch, Based: Gentoo
+Distro's name: Redcore Linux, Website: redcorelinux.org, Based: Gentoo
+Distro's name: Funtoo Linux, Website: funtoo.org, Based: Gentoo (fork)
+Distro's name: Exherbo, Website: exherbo.org, Based: Independent (source-based)
+Distro's name: T2 SDE, Website: t2sde.org, Based: Independent (source-based kit)
+Distro's name: IPFire, Website: ipfire.org, Based: LFS (Linux From Scratch)
+Distro's name: OpenMediaVault, Website: openmediavault.org, Based: Debian
+Distro's name: Proxmox VE, Website: proxmox.com, Based: Debian
+Distro's name: TurnKey Linux Virtual Appliances, Website: turnkeylinux.org, Based: Debian
+Distro's name: Univention Corporate Server (UCS), Website: univention.com, Based: Debian
+Distro's name: EasyOS, Website: easyos.org, Based: Puppy Linux (Independent)
+Distro's name: Fatdog64, Website: distro.ibiblio.org, Based: Puppy Linux (Independent)
+Distro's name: SystemRescue, Website: system-rescue.org, Based: Arch Linux
+Distro's name: Clonezilla Live, Website: clonezilla.org, Based: Debian
+Distro's name: GParted Live, Website: gparted.org, Based: Debian
+Distro's name: Rescuezilla, Website: rescuezilla.com, Based: Ubuntu
+Distro's name: ALT Linux, Website: altlinux.org, Based: Independent (Mandriva lineage)
+Distro's name: Astra Linux, Website: astralinux.ru, Based: Debian
+Distro's name: ClearOS, Website: clearos.com, Based: RHEL/CentOS
+Distro's name: NethServer, Website: nethserver.org, Based: RHEL/CentOS
+Distro's name: Endian Firewall Community, Website: endian.com, Based: RHEL
+Distro's name: Smoothwall Express, Website: smoothwall.org, Based: Independent (LFS)
+Distro's name: LibreELEC, Website: libreelec.tv, Based: Independent (JeOS for Kodi)
+Distro's name: OSMC (Open Source Media Center), Website: osmc.tv, Based: Debian
+Distro's name: Volumio, Website: volumio.org, Based: Debian
+Distro's name: Lakka, Website: lakka.tv, Based: LibreELEC (Independent)
+Distro's name: Recalbox, Website: recalbox.com, Based: Independent (Buildroot)
+Distro's name: Batocera.linux, Website: batocera.org, Based: Independent
+Distro's name: ChimeraOS, Website: chimeraos.org, Based: Arch Linux
+Distro's name: Nobara Project, Website: nobaraproject.org, Based: Fedora
+Distro's name: CachyOS, Website: cachyos.org, Based: Arch Linux
+Distro's name: RebornOS, Website: rebornos.org, Based: Arch Linux
+Distro's name: Archcraft, Website: archcraft.io, Based: Arch Linux
+Distro's name: XeroLinux, Website: xerolinux.xyz, Based: Arch Linux
+Distro's name: Bluestar Linux, Website: bluestarlinux.org, Based: Arch Linux
+Distro's name: Hyperbola GNU/Linux-libre, Website: hyperbola.info, Based: Arch Linux (moving to BSD kernel)
+Distro's name: Parabola GNU/Linux-libre, Website: parabola.nu, Based: Arch Linux
+Distro's name: GeckoLinux, Website: geckolinux.github.io, Based: openSUSE
+Distro's name: MakuluLinux, Website: makululinux.com, Based: Debian
+Distro's name: Neptune, Website: neptuneos.com, Based: Debian
+Distro's name: Siduction, Website: siduction.org, Based: Debian (Unstable)
+Distro's name: AryaLinux, Website: aryalinux.org, Based: LFS (Linux From Scratch)
+Distro's name: Venom Linux, Website: venomlinux.org, Based: LFS (Linux From Scratch)
+Distro's name: Lunar Linux, Website: lunar-linux.org, Based: Independent (source-based)
+Distro's name: Source Mage GNU/Linux, Website: sourcemage.org, Based: Independent (source-based)
+Distro's name: Dragora GNU/Linux-Libre, Website: dragora.org, Based: Independent
+Distro's name: Guix System, Website: guix.gnu.org, Based: Independent (GNU)
+Distro's name: OpenWrt, Website: openwrt.org, Based: Independent (for embedded devices)
+Distro's name: TrueNAS SCALE, Website: truenas.com, Based: Debian
+Distro's name: Photon OS, Website: vmware.github.io, Based: Independent (VMware)
+Distro's name: Amazon Linux 2, Website: aws.amazon.com, Based: RHEL/Fedora like
+Distro's name: Amazon Linux 2023, Website: aws.amazon.com, Based: Fedora
+Distro's name: Azure Linux (CBL-Mariner), Website: github.com, Based: Independent (Microsoft)
+Distro's name: Endless OS, Website: endlessos.com, Based: Debian
+Distro's name: Vanilla OS, Website: vanillaos.org, Based: Debian (Immutable)
+Distro's name: blendOS, Website: blendos.co, Based: Arch Linux (Immutable)
+Distro's name: Fedora Silverblue, Website: silverblue.fedoraproject.org, Based: Fedora (Immutable)
+Distro's name: Fedora Kinoite, Website: kinoite.fedoraproject.org, Based: Fedora (Immutable, KDE)
+Distro's name: openSUSE MicroOS, Website: microos.opensuse.org, Based: openSUSE (Immutable)
+Distro's name: CarbonOS, Website: carbon.sh, Based: Independent (Atomic, Flatpak-centric)
+Distro's name: Asahi Linux, Website: asahilinux.org, Based: Arch Linux ARM (Fedora Asahi Remix exists)
+Distro's name: postmarketOS, Website: postmarketos.org, Based: Alpine Linux
+Distro's name: Ubuntu Touch (UBports), Website: ubports.com, Based: Ubuntu
+Distro's name: Sailfish OS, Website: sailfishos.org, Based: Mer (Linux, historically MeeGo)
+Distro's name: ChromeOS, Website: google.com, Based: Gentoo (Linux kernel)
+Distro's name: Fedora CoreOS, Website: getfedora.org, Based: Fedora
+Distro's name: Flatcar Container Linux, Website: flatcar.org, Based: CoreOS (fork)
+Distro's name: Talos Linux, Website: talos.dev, Based: Independent (Minimalist, for Kubernetes)
+Distro's name: DietPi, Website: dietpi.com, Based: Debian
+Distro's name: Armbian, Website: armbian.com, Based: Debian/Ubuntu (for ARM boards)
+Distro's name: Manjaro ARM, Website: manjaro.org, Based: Arch Linux ARM
+Distro's name: Arch Linux ARM, Website: archlinuxarm.org, Based: Arch Linux
+Distro's name: Adelie Linux, Website: adelielinux.org, Based: Independent (musl, for various architectures)
+Distro's name: Bedrock Linux, Website: bedrocklinux.org, Based: Meta-distribution (allows mixing components)
+Distro's name: Cucumber Linux, Website: cucumberlinux.com, Based: LFS (Linux From Scratch)
+Distro's name: Void PPC, Website: voidlinux-ppc.org, Based: Void Linux (for PowerPC)
+Distro's name: Plop Linux, Website: plop.at, Based: Independent (LFS)
+Distro's name: paldo GNU/Linux, Website: paldo.org, Based: Independent (source and binary)
+Distro's name: Pisi Linux, Website: pisilinux.org, Based: Pardus (Independent package manager)
+Distro's name: Tizen, Website: tizen.org, Based: Linux kernel (Samsung, Linux Foundation)
+Distro's name: webOS Open Source Edition, Website: webosose.org, Based: Linux kernel (LG)
+Distro's name: KaiOS, Website: kaiostech.com, Based: Firefox OS (Linux kernel)
+Distro's name: Elive, Website: elivecd.org, Based: Debian
+Distro's name: Vine Linux, Website: vinelinux.org, Based: Fedora
+Distro's name: Sabayon Linux, Website: sabayon.org, Based: Gentoo
+Distro's name: Scientific Linux, Website: scientificlinux.org, Based: RHEL
+Distro's name: CentOS (pre-Stream), Website: centos.org, Based: RHEL
+Distro's name: SteamOS, Website: store.steampowered.com, Based: Debian (v3 Arch Linux)
+Distro's name: HoloISO, Website: github.com, Based: Arch Linux
+Distro's name: Drauger OS, Website: draugeros.org, Based: Ubuntu
+Distro's name: wattOS, Website: planetwatt.com, Based: Debian
+Distro's name: Damn Small Linux, Website: damnsmalllinux.org, Based: Knoppix (Debian)
+Distro's name: Finnix, Website: finnix.org, Based: Debian
+Distro's name: Grml, Website: grml.org, Based: Debian
+Distro's name: Porteus Kiosk, Website: porteus-kiosk.org, Based: Gentoo
+Distro's name: Thinstation, Website: thinstation.org, Based: LFS (Linux From Scratch)
+Distro's name: VyOS, Website: vyos.io, Based: Debian
+Distro's name: Untangle NG Firewall, Website: untangle.com, Based: Debian
+Distro's name: Security Onion, Website: securityonionsolutions.com, Based: Ubuntu
+Distro's name: Proxmox Backup Server, Website: proxmox.com, Based: Debian
+Distro's name: Obarun, Website: obarun.org, Based: Arch Linux
+Distro's name: Slackel, Website: slackel.gr, Based: Slackware
+Distro's name: Slint, Website: slint.fr, Based: Slackware
+Distro's name: Zentyal Server, Website: zentyal.com, Based: Ubuntu
+Distro's name: SME Server, Website: wiki.koozali.org, Based: RHEL/CentOS
+Distro's name: Rockstor, Website: rockstor.com, Based: openSUSE
+Distro's name: EasyNAS, Website: easynas.org, Based: openSUSE
+Distro's name: Ufficio Zero, Website: ufficiozero.org, Based: PCLinuxOS
+Distro's name: BOSS Linux, Website: bosslinux.in, Based: Debian
+Distro's name: Nova Linux, Website: nova.cu, Based: Ubuntu
+Distro's name: Canaima GNU/Linux, Website: canaima.softwarelibre.gob.ve, Based: Debian
+Distro's name: ArchBang, Website: archbang.org, Based: Arch Linux
+Distro's name: ArchStrike, Website: archstrike.org, Based: Arch Linux
+Distro's name: Archman, Website: archman.org, Based: Arch Linux
+Distro's name: Antergos, Website: antergos.com, Based: Arch Linux
+Distro's name: SolydXK, Website: solydxk.com, Based: Debian
+Distro's name: Refracta, Website: refracta.org, Based: Devuan
+Distro's name: KNOPPIX, Website: knopper.net, Based: Debian
+Distro's name: Asianux, Website: asianux.com, Based: RHEL
+Distro's name: Berry Linux, Website: berry-lab.net, Based: Fedora
+Distro's name: BLAG Linux and GNU, Website: blag.fsf.org, Based: Fedora
+Distro's name: EnGarde Secure Linux, Website: engardelinux.org, Based: Fedora
+Distro's name: Hanthana Linux, Website: hanthana.org, Based: Fedora
+Distro's name: Korora, Website: kororaproject.org, Based: Fedora
+Distro's name: Linpus Linux, Website: linpus.com, Based: Fedora
+
+Total Linux distributions listed: 200
