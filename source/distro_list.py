@@ -1,4 +1,5 @@
 import json
+import re
 from urllib.parse import urlparse
 
 json_data = """
@@ -1015,13 +1016,23 @@ for item in distro_list:
     website_url = item['website']
     base_distro = item['based']
 
+    # Clean the URL by removing comments in parentheses
+    clean_url = re.sub(r'\s*\(.*?\)\s*', '', website_url).strip()
+    
+    # Make sure the URL has a scheme, add http:// if missing
+    if not clean_url.startswith(('http://', 'https://', 'ftp://')):
+        clean_url = f'http://{clean_url}'
+    
     # Parse website to get the domain
-    parsed_url = urlparse(website_url)
+    parsed_url = urlparse(clean_url)
     domain = parsed_url.netloc
-    if not domain: # Handle cases where netloc might be empty for malformed URLs or local file paths
-        domain = website_url # Fallback to the original string if parsing fails to produce a netloc
+    
+    # Skip malformed URLs that don't have a valid domain
+    if not domain:
+        # This will be caught and printed with a warning
+        domain = 'invalid-domain'
     else:
-        # Optional: remove 'www.' if present for a cleaner look, as in the example "ubuntu.com"
+        # Remove 'www.' if present for a cleaner look
         if domain.startswith('www.'):
             domain = domain[4:]
     
