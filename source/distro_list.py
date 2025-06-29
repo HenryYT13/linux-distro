@@ -1015,23 +1015,13 @@ for item in distro_list:
     website_url = item['website']
     base_distro = item['based']
 
-    # Parse website to get the domain
+    # Extract domain from URL, handling edge cases
     parsed_url = urlparse(website_url)
     domain = parsed_url.netloc
-    if not domain: # Handle cases where netloc might be empty for malformed URLs or local file paths
-        domain = website_url # Fallback to the original string if parsing fails to produce a netloc
-    else:
-        # Optional: remove 'www.' if present for a cleaner look, as in the example "ubuntu.com"
-        if domain.startswith('www.'):
-            domain = domain[4:]
-    
-    # Handle cases where the website might be a GitHub link or similar and we want a cleaner representation
-    # For example, if website is "https://github.com/microsoft/CBL-Mariner", domain becomes "github.com"
-    # If the original URL itself is simple like "https://distro.ibiblio.org/fatdog/web/", netloc is "distro.ibiblio.org"
-    # The example "ubuntu.com" implies just the core domain.
-    # If the URL doesn't have a scheme (e.g., "vinelinux.org/ (Largely historical)"), urlparse might behave differently.
-    # Let's assume URLs are generally well-formed with schemes.
-    # For a simple domain like "github.com/user/repo", if you only want "github.com", netloc is fine.
+    if not domain:
+        domain = website_url
+    elif domain.startswith('www.'):
+        domain = domain[4:]
 
     print(f"Distro's name: {distro_name}, Website: {domain}, Based: {base_distro}")
 
