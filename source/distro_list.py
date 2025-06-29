@@ -1,5 +1,50 @@
 import json
 from urllib.parse import urlparse
+import re
+
+def extract_domain(url):
+    """
+    Extract the main domain from a URL in a consistent manner.
+    
+    Args:
+        url (str): The URL to extract the domain from
+        
+    Returns:
+        str: The extracted domain
+    """
+    # First, clean any comments in parentheses
+    url = re.sub(r'\s*\([^)]*\)', '', url).strip()
+    
+    # Parse the URL to get the netloc (domain) part
+    parsed_url = urlparse(url)
+    domain = parsed_url.netloc
+    
+    # If netloc is empty, try to extract from the original URL
+    if not domain:
+        # Try to match a domain pattern in the URL
+        domain_match = re.search(r'([\w.-]+\.[\w]{2,})', url)
+        if domain_match:
+            domain = domain_match.group(1)
+        else:
+            # Fallback to the original URL if we can't extract a domain
+            return url
+    
+    # Extract the main domain (typically the last two or three parts of the domain)
+    # This handles subdomains consistently
+    parts = domain.split('.')
+    
+    # Special case for country-specific TLDs (e.g., .co.uk, .com.au)
+    if len(parts) >= 3 and parts[-2] in ['co', 'com', 'org', 'net', 'ac', 'gov', 'edu'] and len(parts[-1]) == 2:
+        # Return the last three parts for domains like example.co.uk
+        main_domain = '.'.join(parts[-3:])
+    elif len(parts) >= 2:
+        # Return the last two parts for domains like example.com
+        main_domain = '.'.join(parts[-2:])
+    else:
+        # Fallback for unusual cases
+        main_domain = domain
+    
+    return main_domain
 
 json_data = """
 [
@@ -1015,23 +1060,8 @@ for item in distro_list:
     website_url = item['website']
     base_distro = item['based']
 
-    # Parse website to get the domain
-    parsed_url = urlparse(website_url)
-    domain = parsed_url.netloc
-    if not domain: # Handle cases where netloc might be empty for malformed URLs or local file paths
-        domain = website_url # Fallback to the original string if parsing fails to produce a netloc
-    else:
-        # Optional: remove 'www.' if present for a cleaner look, as in the example "ubuntu.com"
-        if domain.startswith('www.'):
-            domain = domain[4:]
-    
-    # Handle cases where the website might be a GitHub link or similar and we want a cleaner representation
-    # For example, if website is "https://github.com/microsoft/CBL-Mariner", domain becomes "github.com"
-    # If the original URL itself is simple like "https://distro.ibiblio.org/fatdog/web/", netloc is "distro.ibiblio.org"
-    # The example "ubuntu.com" implies just the core domain.
-    # If the URL doesn't have a scheme (e.g., "vinelinux.org/ (Largely historical)"), urlparse might behave differently.
-    # Let's assume URLs are generally well-formed with schemes.
-    # For a simple domain like "github.com/user/repo", if you only want "github.com", netloc is fine.
+    # Extract the domain using the improved extract_domain function
+    domain = extract_domain(website_url)
 
     print(f"Distro's name: {distro_name}, Website: {domain}, Based: {base_distro}")
 
